@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/bg-pattern-bottom-desktop.svg), url(./images/bg-pattern-top-desktop.svg);
+    background-color: hsl(300, 33%, 95%);
+    background-repeat: no-repeat;
+    font-family: 'Spartan', sans-serif;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-box{
+    width: 900px;
+    overflow: hidden;
+}
+.first-box{
+    width: 900px;
+    /* display: flex; */
+}
+.header-text{
+    width: 40%;
+}
+.header-first-text{
+    color: hsla(300, 52%, 24%, 0.973);
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 0px 0px 10px 0px ;
+}
+.header-sec-text{
+    color: hsla(300, 43%, 22%, 0.548);
+    font-size: 16px;
+}
+.main-icon{
+    width: 40%;
+    background-color: rgba(238, 130, 238, 0.075);
+    border-radius: 8px;
+    margin-bottom: -20px;
+    padding: 10px 0px 10px 20px;
+    margin-left: 440px;
+    margin-top: -100px;
+}
+.icon{
+}
+.icon-text{
+    margin-left: 110px;
+    margin-top: -20px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: px 0px px 0px ;
+}
+.second-icon{
+    margin-left: 480px;
+}
+.first-icon{
+    margin-left: 510px;
+}
+.sec-box{
+    width: 900px;
+    /* display: flex; */
+    margin-top: 180px;
+    gap: 30px;
+}
+.card{
+    background-color: hsl(300, 43%, 22%);
+    width: 280px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.profile-image{
+    width: 50px;
+    border-radius: 50%;
+}
+.profile-image img{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.profile-text{
+    margin-left: 90px;
+    margin-top: -50px;
+}
+.profile-first-text{
+    color: white;
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.profile-sec-text{
+    color: rgba(221, 11, 127, 0.973);
+    font-weight: 600;
+    font-size: 15px;
+}
+.card-body-text{
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    line-height: 23px;
+}
+.sec-card{
+    margin-top: -230px;
+    margin-left: 300px;
+}
+.third-card{
+    margin-top: -230px;
+    margin-left: 600px;
+}
+@media screen and (max-width: 882px){
+    .box{
+        height: 180vh;
+    }
+    .main-box{
+        width: 351px;
+    }
+    .header-text{
+        width: 39%;
+        text-align: center;
+    }
+    .header-first-text{
+        font-size: 35px;
+    }
+    .header-sec-text{
+        font-size: 15px;
+    }
+    .main-icon{
+        width: 39%;
+        padding: 10px 0px 10px 20px;
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+    .icon{
+        margin-left: 120px;
+        margin-bottom: 5px;
+    }
+    .icon-text{
+        margin-left: 0px;
+        margin-top: -0px;
+        font-size: 13px;
+        padding: px 0px px 0px ;
+        text-align: center;
+    }
+    .second-icon{
+        margin-left: 0px;
+    }
+    .first-icon{
+        margin-left: 0px;
+    }
+    .sec-box{
+        margin-top: 50px;
+    }
+    .card{
+        background-color: hsl(300, 43%, 22%);
+        width: 39%;
+        border-radius: 10px;
+        padding: 30px;
+        margin-top: 15px;
+    }
+    .profile-image{
+        width: 40px;
+    }
+    .profile-text{
+        margin-left: 70px;
+        margin-top: -40px;
+    }
+    .profile-first-text{
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    .profile-sec-text{
+        font-size: 12px;
+    }
+    .card-body-text{
+        margin-top: 13px;
+        font-size: 12px;
+    }
+    .sec-card{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .third-card{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
